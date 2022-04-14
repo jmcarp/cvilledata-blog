@@ -15,15 +15,16 @@ gem "minima"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem 'jekyll-octicons'
-  gem 'jekyll-remote-theme'
   gem "jekyll-twitter-plugin"
-  gem 'jekyll-relative-links'
-  gem 'jekyll-seo-tag'
-  gem 'jekyll-toc'
   gem 'jekyll-gist'
+  gem 'jekyll-octicons'
   gem 'jekyll-paginate'
+  gem 'jekyll-relative-links'
+  gem 'jekyll-remote-theme'
+  gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
+  gem 'jekyll-target-blank'
+  gem 'jekyll-toc'
 end
 
 gem "kramdown-math-katex"
