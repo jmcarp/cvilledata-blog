@@ -44,12 +44,15 @@ $dt-green-light: rgb(172, 229, 145);
     border-radius: 5px;
     font-size: 105%;
 }
+// TODO(jmcarp): Figure out why this breaks folium/branca iframe rendering
+/*
 .output_area pre, .output_area div {
     margin-bottom:1rem !important;
     margin-top:0rem !important;
     padding-bottom:0 !important;
     padding-top:0 !important;
 }
+*/
 .input_area pre {
     border-left: 1px solid lightcoral;
 }
