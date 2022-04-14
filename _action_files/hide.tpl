@@ -2,9 +2,7 @@
 
 {% block codecell %}
     {{ "{% raw %}" }}
-    {::nomarkdown}
     {{ super() }}
-    {:/}
     {{ "{% endraw %}" }}
 {% endblock codecell %}
 
