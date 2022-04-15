@@ -1,1 +1,1 @@
-Sitemap: https://jmcarp.github.io/cvilledata-blog/sitemap.xml
+Sitemap: https://blog.cvilledata.org/sitemap.xml
