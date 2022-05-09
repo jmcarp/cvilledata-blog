@@ -155,9 +155,17 @@ window.onload = wrap_img;
 </p>
 <p>I wanted a collection of city meetings that would be easy to search without proprietary tools, so I wrote a program to collect all the documents from the <a href="https://charlottesvilleva.civicclerk.com/web/home.aspx" target="_blank" rel="noopener noreferrer">city meetings website</a>, convert PDF files to text, and search documents by content without. The result is <a href="https://agendas.cvilledata.org" target="_blank" rel="noopener noreferrer">https://agendas.cvilledata.org</a>, and if you use the search bar at the top of the page to look for "240 stribling", you'll find multiple City Council and Planning Commission meetings, as well as the <a href="https://agendas.cvilledata.org/planning-commission-work-session/2019-08-27T17:00:00/original/" target="_blank" rel="noopener noreferrer">original Planning Commission work session</a> at which the idea for the development was first discussed. Or if you don't want to be subjected by my limited web design skills, the content is also indexed by Google, so a <a href="https://www.google.com/search?q=site%3Aagendas.cvilledata.org+%22240+stribling%22" target="_blank" rel="noopener noreferrer">site search</a> works as usual.</p>
 <p>Ideally this project wouldn't exist, and the city website would be easy to search. Failing that, the city could provide documents for public meetings on a public FTP server for easy access. But City Hall is <a href="https://twitter.com/socialistdogmom/status/1511115903471173639" target="_blank" rel="noopener noreferrer">short-staffed</a>, so for now I'll use my own project to search meeting documents. Hopefully I can delete the <a href="https://github.com/jmcarp/cville-city-agendas" target="_blank" rel="noopener noreferrer">code</a> I wrote one day, because it's sort of a mess. In particular, it uses <a href="https://www.selenium.dev/" target="_blank" rel="noopener noreferrer">Selenium</a> to crawl the city's meeting portal, since I couldn't figure out how to paginate the meetings table without executing javascript. One silver lining is that it's fun to watch the program navigate the city website automatically:</p>
-<video width="480" controls="">
-  <source src="images/selenium-agendas.mov" type="video/mp4"></source>
+<p><video width="480" controls="">
+  <source src="/images/copied_from_nb/images/selenium-agendas.mov" type="video/mp4"></source>
 </video>
+<figure>
+  
+    <img class="docimage" src="/images/copied_from_nb/images/selenium-agendas.mov" alt="" style="max-width: 480px">
+    
+    
+</figure>
+</p>
+
 </div>
 </div>
 </div>
